@@ -1,0 +1,12 @@
+LIBRARY "smithSmushCutscene"
+EXPORTS
+	SmithQueryPlugin
+	InitializePlugin
+	ShutdownPlugin
+	smushLoad
+	smushGetInfo
+	smushFrame
+	smushGetFrame
+	smushGetAudio
+	smushGetCutsceneStringId
+	smushDestroy
