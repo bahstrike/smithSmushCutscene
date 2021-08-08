@@ -11,7 +11,10 @@ extern "C"
 	{
 		strcpy(p.name, "Smush Cutscene");
 		strcpy(p.author, "bahstrike");
+		strcpy(p.authorEmail, "strike@bah.wtf");
+		strcpy(p.attributions, "clone2727&Copyright 2012 Matthew Hoops (clone2727@gmail.com) author of \"smushplay - A simple LucasArts SMUSH video player\"");
 		strcpy(p.desc, "Provides Smush cutscene support");
+		strcpy(p.homepageURL, "https://github.com/bahstrike/smithSmushCutscene");
 		p.smithRequiredVer = SMITHVERSION;
 		p.ver = 100;
 		p.purpose = PP_SMUSHCUTSCENE;
