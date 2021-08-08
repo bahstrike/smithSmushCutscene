@@ -19,6 +19,8 @@ extern "C"
 		p.ver = 100;
 		p.purpose = PP_SMUSHCUTSCENE;
 
+		//p.authoritykey
+
 		return 1337;
 	}
 
