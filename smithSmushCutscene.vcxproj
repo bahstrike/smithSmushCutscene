@@ -78,7 +78,8 @@ copy $(OutputPath)\smithSmushCutscene.dll c:\smith\bin\release\</Command>
     </Link>
     <PostBuildEvent>
       <Command>copy $(OutputPath)\smithSmushCutscene.dll c:\smith\bin\debug\
-copy $(OutputPath)\smithSmushCutscene.dll c:\smith\bin\release\</Command>
+copy $(OutputPath)\smithSmushCutscene.dll c:\smith\bin\release\
+copy $(OutputPath)\smithSmushCutscene.dll c:\smith\</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
